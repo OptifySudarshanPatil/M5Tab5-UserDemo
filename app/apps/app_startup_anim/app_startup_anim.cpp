@@ -37,7 +37,7 @@ void AppStartupAnim::onOpen()
 
     _logo_tab = std::make_unique<Image>(lv_screen_active());
     _logo_tab->setAlign(LV_ALIGN_TOP_MID);
-    _logo_tab->setSrc(&logo_tab);
+    _logo_tab->setSrc(&optify_logo_transparent);
     _logo_tab->setPos(-46, 785);
 
     _logo_5 = std::make_unique<Image>(lv_screen_active());
